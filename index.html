@@ -192,7 +192,7 @@
         var nebulas = require("nebulas"),
             Account = nebulas.Account,
             neb = new nebulas.Neb();
-        neb.setRequest(new nebulas.HttpRequest("https://mainnet.nebulas.io/"));//官方测试网络
+        neb.setRequest(new nebulas.HttpRequest("https://mainnet.nebulas.io"));//官方测试网络
 
         // 搜索功能: 查找当前身份证是否在丢失人员库中
         $("#search").click(function(){
